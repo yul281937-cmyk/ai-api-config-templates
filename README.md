@@ -1,5 +1,7 @@
 # AI API 配置模板库
 
+> 🚀 **在线快速上手页**：https://yul281937-cmyk.github.io/ai-api-config-templates/
+
 主流 AI 客户端与 SDK 接入 [CA云上创造](https://caapi.top) 的配置模板集合。
 
 一个 API Key 即可调用 **40+ 主流大模型**（GPT-6、Claude、Gemini、DeepSeek、GLM、Grok…），[OI] 兼容接口——改个接口地址就能跑，不用折腾环境。实时折扣低至 0.8 折，按量计费无月费。
