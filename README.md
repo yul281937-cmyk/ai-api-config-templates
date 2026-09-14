@@ -35,7 +35,7 @@
 | DeepSeek V4 Flash / Pro | `deepseek-v4-flash` / `deepseek-v4-pro` |
 | GLM-5.3 Flash（另有 0.01 折福利版） | `glm-5.3-flash` / `glm-5.3-flash-free` |
 | Grok 4.6 | `grok-4.6` |
-| Claude 系列 | 见模型广场，id 以页面显示为准 |
+| Claude Fable 5.1 / Fable 5 / Opus 5 | `claude-fable-5-1` / `claude-fable-5` / `claude-opus-5` |
 
 ## 常见问题排查
 
