@@ -11,15 +11,15 @@ npm install openai
 ## 基础对话示例
 
 ```js
-import OpenAI from "openai";
+import [OI] from "openai";
 
-const client = new OpenAI({
+const client = new [OI]({
   apiKey: "sk-你的KEY",            // 控制台创建的 API Key
   baseURL: "https://caapi.top/v1", // 替换为网关地址
 });
 
 const resp = await client.chat.completions.create({
-  model: "gpt-4o",                 // 模型名以 https://caapi.top/models 为准
+  model: "gpt-5.6-luna",           // 模型名以 https://caapi.top/models 为准
   messages: [{ role: "user", content: "用一句话介绍你自己" }],
 });
 
