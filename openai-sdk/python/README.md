@@ -11,15 +11,15 @@ pip install openai
 ## 基础对话示例
 
 ```python
-from openai import OpenAI
+from openai import [OI]
 
-client = OpenAI(
+client = [OI](
     api_key="sk-你的KEY",          # 控制台创建的 API Key
     base_url="https://caapi.top/v1",  # 替换为网关地址
 )
 
 resp = client.chat.completions.create(
-    model="gpt-4o",                # 模型名以 https://caapi.top/models 为准
+    model="gpt-6-astra",           # 模型名以 https://caapi.top/models 为准
     messages=[
         {"role": "system", "content": "你是一个乐于助人的助手。"},
         {"role": "user", "content": "用一句话介绍你自己"},
@@ -31,15 +31,15 @@ print(resp.choices[0].message.content)
 ## 流式输出示例
 
 ```python
-from openai import OpenAI
+from openai import [OI]
 
-client = OpenAI(
+client = [OI](
     api_key="sk-你的KEY",
     base_url="https://caapi.top/v1",
 )
 
 stream = client.chat.completions.create(
-    model="deepseek-chat",
+    model="deepseek-v4-flash",
     messages=[{"role": "user", "content": "写一首关于代码的短诗"}],
     stream=True,
 )
