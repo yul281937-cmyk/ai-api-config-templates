@@ -23,6 +23,7 @@
 | 模型 | model 字段示例 |
 |---|---|
 | GPT-6 Astra | `gpt-6-astra` |
+| Claude Fable 5.1 / Opus 5 | `claude-fable-5-1` / `claude-opus-5` |
 | GPT-5.6 Luna | `gpt-5.6-luna` |
 | Gemini 3.6 Flash | `gemini-3.6-flash` |
 | DeepSeek V4 Flash | `deepseek-v4-flash` |
