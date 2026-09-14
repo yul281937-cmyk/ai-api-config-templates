@@ -15,7 +15,7 @@
 3. 在 **自定义模型名** 中填写要使用的模型（逗号分隔可填多个），例如：
 
    ```
-   gpt-6-astra,gpt-5.6-luna,deepseek-v4-flash,gemini-3.6-flash
+   gpt-6-astra,claude-fable-5-1,claude-opus-5,deepseek-v4-flash,gemini-3.6-flash
    ```
 
 4. 保存后回到对话页，选择模型开始使用
