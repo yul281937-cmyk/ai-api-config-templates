@@ -1,11 +1,11 @@
 # ChatBox 接入配置
 
-[ChatBox](https://chatboxai.app/) 是跨平台 AI 客户端（Windows / macOS / Linux / iOS / Android / Web），支持自定义 OpenAI 兼容接口。
+[ChatBox](https://chatboxai.app/) 是跨平台 AI 客户端（Windows / macOS / Linux / iOS / Android / Web），支持自定义 [OI] 兼容接口。
 
 ## 配置步骤
 
 1. 下载安装 ChatBox：https://chatboxai.app/
-2. 打开 **设置 → 模型 → 添加自定义提供方**（选择 OpenAI API 兼容）
+2. 打开 **设置 → 模型 → 添加自定义提供方**（选择 [OI] API 兼容）
 3. 填写：
 
    | 配置项 | 填写内容 |
@@ -16,17 +16,20 @@
 
 4. 保存后回到对话页，选择该自定义模型即可使用
 
-## 常用模型名示例
+## 在售模型 id 示例
 
-> 模型名以 https://caapi.top/models 实时显示为准：
+> 40+ 模型的完整列表与实时价格见 https://caapi.top/models ：
 
 | 模型 | model 字段示例 |
 |---|---|
-| GPT-4o | `gpt-4o` |
-| Claude Sonnet | `claude-sonnet-4-5` |
-| DeepSeek V3 | `deepseek-chat` |
+| GPT-6 Astra | `gpt-6-astra` |
+| GPT-5.6 Luna | `gpt-5.6-luna` |
+| Gemini 3.6 Flash | `gemini-3.6-flash` |
+| DeepSeek V4 Flash | `deepseek-v4-flash` |
+| GLM-5.3 Flash | `glm-5.3-flash` |
 
 ## 常见问题
 
 - **请求 404**：API Host 必须带 `/v1`，即 `https://caapi.top/v1`
 - **401**：Key 填写有误，检查前后空格
+- **model not found**：模型 id 以模型广场显示为准，直接复制粘贴最稳妥
